@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#solary{
+    background-image: url('../img/milky-way.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#solary .sun{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#solary .sun img{
+    width: 100px;
+    height: 100px;
+    animation: sun 10s linear infinite;
+}
+
+#solary .mercury{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 42%;
+    left: 46%;
+    border-radius: 100%;
+    animation: spin 17s linear infinite;
+}
+
+#solary .mercury img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+#solary .venus{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 35%;
+    left: 42%;
+    border-radius: 100%;
+    animation: spin 13s linear infinite;
+}
+
+#solary .venus img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+#solary .world{
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    top: 30%;
+    left: 40%;
+    border-radius: 100%;
+    animation: spin 15s linear infinite;
+}
+
+#solary .world img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+#solary .mars{
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    top: 22%;
+    left: 37%;
+    border-radius: 100%;
+    animation: spin 11s linear infinite;
+}
+
+#solary .mars img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+#solary .jupiter{
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    top: 22%;
+    left: 37%;
+    border-radius: 100%;
+    animation: spin 19s linear infinite;
+}
+
+#solary .jupiter img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+#solary .saturn{
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    top: 22%;
+    left: 37%;
+    border-radius: 100%;
+    animation: spin 21s linear infinite;
+}
+
+#solary .saturn img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+#solary .uranus{
+    position: absolute;
+    width: 630px;
+    height: 630px;
+    top: 19%;
+    left: 34%;
+    border-radius: 100%;
+    animation: spin 7s linear infinite;
+}
+
+#solary .uranus img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes sun {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
